@@ -1,0 +1,24 @@
+.question-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+    .options-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  
+      .option {
+        cursor: pointer;
+        color: white;
+  
+        &:hover {
+          color: blue;
+        }
+      }
+    }
+  }
+  
